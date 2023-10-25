@@ -1,0 +1,106 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(46, 93, 129);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem 2rem;
+    list-style: none;
+}
+
+nav div img {
+    width: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition transition-duration: 300ms;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.bgHome {
+    height: 90vh;
+    background-image: url(Pict/Background.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgAbout {
+    height: 90vh;
+    background-image: url(Pict/Background.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgSocialmedia {
+    height: 90vh;
+    background-image: url(Pict/Background.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgContent {
+    height: 90vh;
+    background-image: url(Pict/Background.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgKontak {
+    height: 90vh;
+    background-image: url(Pict/Background.jpg);
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.biodataweb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulweb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 93, 129);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer p {
+    display: flex;
+    align-items: center;
+    color: white;
+}
